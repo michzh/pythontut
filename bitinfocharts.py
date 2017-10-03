@@ -1,6 +1,6 @@
 # Программа для отображения графика курсов с разных площадок
 import json
-from numpy import mean
+# from numpy import mean
 import matplotlib.pyplot as plt
 from urllib.request import urlopen
 url = "http://api.bitcoincharts.com/v1/markets.json"
