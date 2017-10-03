@@ -26,8 +26,7 @@ for price in jsdata[:]:
 #        print(price["symbol"] , price["currency"], price["bid"], price["ask"], sep=' | ', end='\n')
         x.append(price["bid"])
         y.append(price["ask"])
-        xl.append(price["symbol"])
-
+        
 plt.plot(x, label='bid')
 plt.plot(y, label='Ask')
 #plt.xlabel('')
@@ -35,5 +34,7 @@ plt.plot(y, label='Ask')
 plt.title('Prices ASK AND BID')
 plt.show()
 #print(x)
+
+# Подсчет среднего значения по всем площадкам
 #bid = mean(x)
 #print (bid)
