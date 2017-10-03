@@ -18,7 +18,6 @@ fopen.close()
 jsdata = json.loads(jsread)
 x=[]
 y=[]
-xl=[]
 
 for price in jsdata[:]:
     currency = 'USD'
@@ -31,8 +30,8 @@ for price in jsdata[:]:
 
 plt.plot(x, label='bid')
 plt.plot(y, label='Ask')
-#plt.xlabel(xl)
-#plt.ylabel('Price CHART')
+#plt.xlabel('')
+#plt.ylabel('')
 plt.title('Prices ASK AND BID')
 plt.show()
 #print(x)
