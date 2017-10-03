@@ -1,2 +1,2 @@
 # pythontut
-my python tutorial
+Попытка работать с JSON данными.
