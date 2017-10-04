@@ -1,4 +1,4 @@
-# Программа для отображения графика курсов с разных площадок
+# Программа для отображения графика курсов с разных площадок.
 import json
 # from numpy import mean
 import matplotlib.pyplot as plt
